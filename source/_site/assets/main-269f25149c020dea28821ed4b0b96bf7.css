@@ -18,20 +18,40 @@ body {
   margin: 0;
   padding: 0;
   background: #add1c9;
-  color: white; }
+  color: white;
+  font-family: "Exo"; }
 
 header {
   width: 100%; }
+
+.white {
+  color: white; }
+
+.red {
+  color: #da4d48; }
 
 .top {
   background: #da4d48;
   color: #da4d48;
   padding-bottom: 20px; }
-  .top a, .top a:visited {
-    color: #da4d48; }
 
 nav {
   background: #faf1cf; }
+  nav ul {
+    width: 500px;
+    margin: 0 auto; }
+    nav ul img {
+      padding-top: 5px;
+      height: 20px; }
+  nav a, nav a:visited {
+    color: #da4d48;
+    text-decoration: none; }
+  nav a:hover {
+    color: #add1c9; }
+  nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px; }
 
 .header-logo {
   margin: 0 auto;

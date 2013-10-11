@@ -24,6 +24,7 @@ body {
 	padding: 0;
 	background: $blue;
 	color: $white;
+	font-family: "Exo";
 }
 
 header {
@@ -40,14 +41,33 @@ header {
 .top {
 	background: $red;
 	color: $red;
-	a, a:visited {
-		color: $red;
-	}
+	
 	padding-bottom: 20px;
 }
 
 nav {
+	ul {
+		width: 500px;
+		margin: 0 auto;
+		img {
+			padding-top: 5px;
+			height: 20px;
+		}
+	}
 	background: $beige;
+	a, a:visited {
+		color: $red;
+		text-decoration: none;
+		
+	}
+	a:hover {
+		color: $blue;
+	}
+	li {
+		list-style: none;
+		display: inline-block;
+		padding: 10px 20px;
+	}
 }
 
 .header-logo {
