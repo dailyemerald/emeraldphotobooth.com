@@ -1,0 +1,60 @@
+$red: #DA4D48;
+$blue: #ADD1C9;
+$beige: #FAF1CF;
+$white: #FFFFFF;
+$black: #000000;
+
+@import "./bourbon/bourbon";
+@import "./neat/neat";
+
+$column: 90px;
+$gutter: 30px;
+$grid-columns: 10;
+$max-width: em(1088);
+
+$tablet: new-breakpoint(max-width 768px 8);
+$mobile: new-breakpoint(max-width 480px 4);
+
+div.container {
+  @include outer-container;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: $blue;
+	color: $white;
+}
+
+header {
+	width: 100%;
+}
+
+.white {
+	color: $white;
+}
+.red {
+	color: $red;
+}
+
+.top {
+	background: $red;
+	color: $red;
+	a, a:visited {
+		color: $red;
+	}
+	padding-bottom: 20px;
+}
+
+nav {
+	background: $beige;
+}
+
+.header-logo {
+	margin: 0 auto;
+	width: 275px;
+}
+
+section {
+  @include outer-container;
+}
