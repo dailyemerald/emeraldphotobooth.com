@@ -45,19 +45,41 @@ header {
 	padding-bottom: 20px;
 }
 
+.bolder {
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 45px;
+	line-height: 0.873em;
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+}
+
+.message-us {
+	margin-top: 30px;
+	text-align: center;
+	font-size: 20px;
+	a {
+		color: $white;
+	}
+}
+
 nav {
 	ul {
 		width: 500px;
 		margin: 0 auto;
 		img {
 			padding-top: 5px;
-			height: 20px;
+			height: 18px;
 		}
 	}
 	background: $beige;
 	a, a:visited {
 		color: $red;
 		text-decoration: none;
+		font-weight: 700;
 		
 	}
 	a:hover {
@@ -66,8 +88,21 @@ nav {
 	li {
 		list-style: none;
 		display: inline-block;
-		padding: 10px 20px;
+		padding: 20px 20px;
+
 	}
+}
+
+.pricing-details {
+	text-align: center;
+	li {
+		list-style: none;
+	}
+}
+
+.pricing-photo {
+	width: 272px;
+	margin: 0 auto;
 }
 
 .header-logo {
@@ -77,4 +112,5 @@ nav {
 
 section {
   @include outer-container;
+  padding-top: 45px;
 }
