@@ -150,3 +150,14 @@ section {
 		}
 }
 
+@media (max-width: 600px) {
+	.header-e {
+		left: 5px;
+		top: 5px;
+		img {
+			width: 16px;
+			height: 19px;
+		}
+	}
+}
+
