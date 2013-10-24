@@ -46,8 +46,20 @@ header {
 .top {
 	background: $red;
 	color: $red;
-	
+	position: relative;
 	padding-bottom: 20px;
+	height: 135px;
+}
+.header-e {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+.header-logo {
+	position: absolute;
+	left: 50%;
+	top: 15px;
+	margin-left: -138px;
 }
 
 .flexslider {
@@ -115,12 +127,6 @@ nav {
 	li {
 		list-style: none;
 	}
-}
-
-
-.header-logo {
-	margin: 0 auto;
-	width: 275px;
 }
 
 section {
