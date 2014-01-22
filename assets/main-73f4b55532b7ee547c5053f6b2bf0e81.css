@@ -116,10 +116,22 @@ section {
     margin: 0 auto;
     display: block; }
 
+.staff {
+  margin: 20px 0; }
+
+.staff img {
+  float: left;
+  width: 175px;
+  height: auto;
+  margin: 10px; }
+
 @media (max-width: 600px) {
   .header-e {
     left: 5px;
     top: 5px; }
     .header-e img {
       width: 16px;
-      height: 19px; } }
+      height: 19px; }
+
+  .staff img {
+    width: 161px; } }
